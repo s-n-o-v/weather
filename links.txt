@@ -1,0 +1,3 @@
+*** yandex ***
+export.yandex.ru/weather-ng/forecasts/{id_city}.xml
+ID брать тут: http://weather.yandex.ru/static/cities.xml
