@@ -10,4 +10,6 @@ class WeatherURL {
 	def URL = _URL
 	def URL_=(weatherURL: String) = { _URL = if (weatherURL != 0) weatherURL else "" }
 	
+	def toXML() = <URL name={ "" + _Key + "" }>{ _URL }</URL>
+	
 }
