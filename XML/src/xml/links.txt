@@ -1,0 +1,17 @@
+*** Yandex *************************************************************
+Список городов http://weather.yandex.ru/static/cities.xml
+Данные города http://export.yandex.ru/weather-ng/forecasts/{$city}.xml
+http://export.yandex.ru/weather-ng/forecasts/28642.xml - 4el
+
+*** Yahoo **************************************************************
+Список городов 
+Данные города http://weather.yahooapis.com/forecastrss?w={city}&u=f
+
+
+
+
+
+
+[yandex] CityID=28642 URL=http://export.yandex.ru/weather-ng/forecasts/{city}.xml
+[yahoo] CityID=28642 URL=http://weather.yahooapis.com/forecastrss?w={city}&u=f
+
